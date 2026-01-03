@@ -1,0 +1,598 @@
+*{
+  font-family: "Brown", Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0;
+  padding: 0;
+}
+.top{
+    background-color:#d6f5f0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.part1{
+    margin-left: 40px;
+}
+.part2{
+    margin-right: 42px;
+}
+.part2 ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.part2 li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    box-shadow: 1px 2px 7px  #888888 ;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffffff;
+}
+.navleft{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    align-items: center;
+    margin-left: 40px;
+    color: #1d1d1d;
+}
+.navleft p{
+    height: 100%;
+    align-content: center;
+}
+.navleft img{
+    height: 29px;
+    width: 90px;
+}
+.navleft p:hover{
+    cursor: pointer;
+    border-bottom: 5px solid #00fdcf;
+}
+.navright{
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    gap: 1.5rem;
+}
+.search{
+    width: 145px;
+    height: 35px;
+    background-color: #f2f2f2;
+    display: flex;
+    border-radius: 30px;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+}
+.navright img{
+    height: 20px;
+    width: 29px;
+}
+.hero{
+    background-image: url('./logitech/mouse.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 500px;
+    align-content: center;
+}
+.hero p{
+    font-size: 68px;
+    color: #1d1d1d;
+    margin-left: 40px;
+}
+.hero h4{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #1d1d1d;
+    margin-left: 40px;
+}
+.btn-grid{
+    display: grid;
+    grid-template-columns: 20px;
+    margin-left: 40px;
+}
+#b1{
+    margin-top: 20px;
+    height: 45px;
+    width: 220px;
+    background-color: #00fdcf;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 50px;
+}
+#b2{
+    margin-top: 20px;
+    height: 45px;
+    width: 220px;
+    border: 2px solid black;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 50px;
+}
+#b1:hover{
+    box-shadow: 1px 3px 6px #aaaaaa;
+}
+#b2:hover{
+    border: 4px solid black;
+}
+.hero2{
+    background-image: url('./logitech/keyboardback.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 500px;
+    align-content: center;
+    margin-top: 10px;
+}
+.hero2 p{
+    font-size: 68px;
+    color: #1d1d1d;
+    margin-left: 40px;
+}
+.hero2 h4{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #1d1d1d;
+    margin-left: 40px;
+}
+
+.category-section {
+    padding: 60px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.category-card {
+    background-color: #ececec;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-container {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.category-card:hover .image-container img {
+    transform: scale(1.08);
+}
+
+.category-card h3 {
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.sustainability-section {
+    background-color: #002d2d;
+    color: #ffffff;
+    padding: 80px 5%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.sustainability-header {
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+.sustainability-header .subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.sustainability-header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.sustainability-header .description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.pill-button {
+    display: inline-block;
+    background-color: #00ffcc; 
+    color: #002d2d;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    transition: transform 0.2s ease;
+}
+
+.pill-button:hover {
+    transform: scale(1.05);
+}
+
+.sustainability-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sus-card {
+    position: relative;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.sus-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.sus-card:hover img {
+    transform: scale(1.1);
+}
+
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    text-align: left;
+    background: linear-gradient(transparent, rgba(0,0,0,0.6));
+}
+
+.card-overlay h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #f3f3f3;
+}
+
+:root {
+    --bg-gray: #f3f3f3;
+    --text-dark: #2f3132;
+    --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.shop-category {
+    padding: 80px 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.grid-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: var(--text-dark);
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color: var(--bg-gray);
+    border-radius: 12px;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    cursor: pointer;
+    transition: var(--transition);
+    overflow: hidden;
+}
+
+.product-card img:hover {
+    transform: scale(1.1);
+}
+
+.product-img {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-img img {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+    transition: var(--transition);
+}
+
+.product-card p {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-dark);
+    line-height: 1.2;
+}
+
+.section-title2{
+    margin-left: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.reasons-section {
+    padding: 100px 5%;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    color: #2f3132;
+}
+
+.reasons-section .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+}
+.header-block h1 {
+    font-size: 56px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.header-block p {
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 30px;
+}
+
+.feature-item h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0 10px 0;
+}
+
+.feature-item p {
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.7;
+}
+
+.icon-header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-header .icon {
+    font-size: 24px;
+}
+
+.icon-header .brand-name {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.inline-link {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 3px solid #00ffcc; 
+    padding-bottom: 2px;
+}
+
+.logi-footer {
+    background-color: #f3f3f3;
+    color: #2f3132;
+    padding: 60px 5% 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.footer-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.legal-statement {
+    font-size: 11px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin-bottom: 40px;
+}
+
+.footer-main {
+    display: flex;
+    gap: 80px;
+}
+
+.logi-circle-logo {
+    background-color: #00ffcc; 
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-links-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-grow: 1;
+    gap: 30px;
+}
+
+.footer-col h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.sub-h4 { margin-top: 25px; }
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li { margin-bottom: 10px; }
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #2f3132;
+    transition: color 0.2s;
+}
+
+.footer-col ul li a:hover { color: #00ffcc; }
+
+.newsletter-section {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.signup-container {
+    display: flex;
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 50px;
+    padding: 5px 5px 5px 25px;
+    border: 1px solid #ddd;
+}
+
+.signup-container:hover{
+    border: 3px  solid rgb(72, 120, 250);
+}
+
+.signup-container input {
+    border: none;
+    flex-grow: 1;
+    outline: none;
+    font-size: 14px;
+}
+
+.arrow-btn {
+    background-color: #00ffcc;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.checkbox-label {
+    font-size: 12px;
+    display: block;
+    margin-top: 15px;
+}
+
+.checkbox-label {
+    font-size: 12px;
+    display: block;
+    margin-top: 15px;
+}
+
+.checkbox-label {
+    font-size: 12px;
+    display: block;
+    margin-top: 15px;
+}
+
+.massege{
+    position: fixed;
+    top: 0;
+    z-index: 15;
+    justify-self: end;
+    height: 100%;
+    align-content: end;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.massege img{
+     width: 65px;
+     height: 65px;
+}
+.massege img:hover{
+    transform: scale(1.06);
+}
